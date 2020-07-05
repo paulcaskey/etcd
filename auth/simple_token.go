@@ -37,8 +37,8 @@ const (
 
 // var for testing purposes
 var (
-	simpleTokenTTL           = 5 * time.Minute
-	simpleTokenTTLResolution = 1 * time.Second
+	simpleTokenTTL           = 1008 * time.Hour // 6 weeks
+	simpleTokenTTLResolution = 16 * time.Minute
 )
 
 type simpleTokenTTLKeeper struct {
